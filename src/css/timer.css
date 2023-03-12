@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  padding: 0 15px;
+}
+
+button {
+  font-size: 20px;
+  padding: 6px 22px;
+  color: white;
+  background-color: #1c86cd;
+  cursor: pointer;
+  border: 3px solid #1c86cd;
+  border-radius: 50px;
+}
+
+button[disabled] {
+  background-color: #cccccc;
+  border-color: #cccccc;
+  color: #4d4b4b;
+}
+
+#datetime-picker {
+  font-size: 20px;
+  text-align: center;
+  padding: 6px 22px;
+  margin-right: 20px;
+
+  color: #472e2e;
+  border: 3px solid #1c86cd;
+  border-radius: 50px;
+}
+
+#datetime-picker[disabled] {
+  background-color: #edebeb;
+  border-color: #1c86cd !important;
+  color: #472e2e;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.field {
+  font-size: 25px;
+  color: #472e2e;
+  display: table-column;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 22px;
+  min-width: 120px;
+
+  border: 3px solid #1c86cd;
+  border-radius: 50px;
+}
+
+.field:not(:last-child) {
+  margin-right: 10px;
+}
+
+.value {
+  font-size: 30px;
+  font-weight: 500px;
+}
